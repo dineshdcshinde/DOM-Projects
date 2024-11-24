@@ -16,6 +16,8 @@ Here are some of the mini-projects you'll find in this repository:
 
 1. **Scroll Progress Bar**: A dynamic progress bar that updates based on scroll position.
 
+2. **Simple Multiplication Game**: A simple multi-plication game with score tracker
+
 ## Features
 
 - Hands-on practice with DOM methods like `querySelector`, `addEventListener`, `appendChild`, and more.
