@@ -18,6 +18,8 @@ Here are some of the mini-projects you'll find in this repository:
 
 2. **Simple Multiplication Game**: A simple multi-plication game with score tracker
 
+3. **Calendar Display Project 🗓️**: A simple calendar display
+
 ## Features
 
 - Hands-on practice with DOM methods like `querySelector`, `addEventListener`, `appendChild`, and more.
