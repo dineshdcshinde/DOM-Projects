@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #2a2a2a;
+}
+
+.quoteGenerator {
+  height: 50%;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quoteGenerator h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteGenerator p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.quoteGenerator button {
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease-in-out;
+  align-self: center;
+}
+
+.quoteGenerator button:hover {
+  background-color: #3e8e41;
+}
+
+
+strong{
+  font-weight: bold;
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+}
