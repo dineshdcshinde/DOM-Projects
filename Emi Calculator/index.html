@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emi Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <h2>Emi Calculator</h2>
+
+        <form action="#">
+          <label for="principal">Principal</label>
+          <input
+            type="number"
+            id="principal"
+            placeholder="Enter Principal Amount"
+            required
+          />
+
+          <label for="rate">Rate</label>
+          <input
+            type="number"
+            id="rate"
+            placeholder="Enter Interest Rate"
+            required
+          />
+
+          <label for="time">Months</label>
+          <input type="number" id="time" placeholder="Enter Months" required />
+
+          <button type="submit">Calculate EMI</button>
+        </form>
+
+        <p>Your emi will be &#8377; <span></span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
