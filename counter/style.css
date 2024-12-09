@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #2a2a2a;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.counter button:first-child {
+  padding: 0.8rem 1.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  background-color: rgb(216, 43, 43);
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.counter button:last-child {
+  padding: 0.8rem 1.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  background-color: rgb(7, 165, 78);
+  outline: none;
+  border: none;
+  margin-left: 1rem;
+  color: #fff;
+}
