@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: #2a2a2a;
+}
+
+.card-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    height: 30%;
+    width: 20%;
+    background-color: #b7b1b1;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card i{
+   font-size: 5rem;
+   color: #2d52e6;
+   margin-bottom: 0.5rem;
+}
+
+
+i.twitter{
+  color: #24a3f1;
+    
+}
+
+i.youtube{
+    color: #d01e24;
+}
+
+.card .counter{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card h3{
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
