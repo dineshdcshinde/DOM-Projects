@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #2a2a2a;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  gap: 1rem;
+  background-color: #2a2a2a;
+  color: #fff;
+  /* max-width: 90%; */
+  /* margin: 0 auto; */
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    height: 90vh;
+  width: 30%;
+  background-color: #5a5959;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 10px rgba(156, 156, 156, 0.4);
+  filter: grayscale(1);
+  transition: width 0.4s ease;
+  cursor: pointer;
+}
+
+.inner-container h3 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cont1 {
+  background-image: url("./assets/photos/brazil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cont2 {
+  background-image: url("./assets/photos/mumbai.jpg");
+}
+.cont3 {
+  background-image: url("./assets/photos/pune.jpg");
+}
+.cont4 {
+  background-image: url("./assets/photos/russia.jpg");
+}
+
+.active {
+  filter: grayscale(0);
+  width: 60%;
+  transition: filter 0.3s ease;
+}
