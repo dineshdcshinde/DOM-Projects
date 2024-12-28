@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #3c3c3c;
+}
+
+.captcha-container {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+  font-family: cursive;
+  box-shadow: 0 0 5px 0 rgba(81, 81, 81, 0.5);
+}
+
+.captcha-container h2 {
+  color: #fff;
+  font-family: #3c3c3c;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  background-color: #007bff;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-bottom: 0.5rem;
+}
+
+.captcha-output {
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.captcha-container input {
+  padding: 0.9rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: 2px solid #3c3c3c;
+  margin-bottom: 0.9rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.captcha-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.captcha-container input:hover {
+  border-color: #0056b3;
+}
+
+.captcha-btn .refresh-btn {
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background-color: #6c757d; /* Secondary color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 0.7rem;
+}
+
+.captcha-btn .refresh-btn:hover {
+  background-color: #5a6268;
+}
+
+.captcha-btn .refresh-btn:active {
+  background-color: #545b62;
+  box-shadow: 0 0 5px rgba(84, 91, 98, 0.5);
+}
+
+.captcha-btn .submit-btn {
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  background-color: #28a745; /* Primary color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 0.7rem;
+}
+
+.captcha-btn .submit-btn:hover {
+  background-color: #279a42;
+}
+
+.captcha-btn .submit-btn:active {
+  background-color: #23913d;
+  box-shadow: 0 0 5px rgba(0, 40, 85, 0.5);
+}
